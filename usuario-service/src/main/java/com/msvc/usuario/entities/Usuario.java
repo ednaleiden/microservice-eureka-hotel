@@ -31,7 +31,7 @@ public class Usuario {
     private String informacion;
 
     @Transient //NO DEBE PERSISTIR EN LA BASE DE DATOS
-    private List<Calificacion> calificaciones = new ArrayList<Calificacion>();
+    private List<Calificacion> calificaciones = new ArrayList<>();
 
 
 }

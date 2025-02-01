@@ -20,4 +20,6 @@ public class Calificacion {
     private int calificacion;
 
     private String observaciones;
+
+    private Hotel hotel;
 }
